@@ -48,19 +48,86 @@
         </div>
 
      <div class="candidates">
-          <div class="candidate1">
+           <!--Candidate 1 card-->  
+         <div class="candidate_card">
             <img src="assets/imran.jpeg" alt="Imran Khan">
 
-            <div class="candidate1_details">
+            <div class="candidate_card_details">
                 <strong>Imran Khan</strong><br>
                 <span>Party Founder &Leader </span><br>
                 <span>Pakistan Tehreek-e-Insaf (PTI)</span>
             </div>
 
-            <button ><h2 style="background-color: #0C7C59">Cast Vote</h2></button>
+            <a href="#success-card">
+             <button id="cast_vote" class="vote-btn">Cast Vote</button>
+            </a>
          </div>
+
+         <!--Candidate 2 card-->  
+          <div class="candidate_card">
+            <img src="assets/benazir.png" alt="Imran Khan">
+
+            <div class="candidate_card_details">
+                <strong>Benazir Bhutto</strong><br>
+                <span>Party Founder & Leader  </span><br>
+                <span>Pakistan People’s Party (PPP)</span>
+            </div>
+
+            <a href="#success-card">
+             <button id="cast_vote" class="vote-btn">Cast Vote</button>
+            </a>
+          </div>
+
+           <!--Candidate 3 card-->  
+          <div class="candidate_card">
+            <img src="assets/nawaz.png" alt="Imran Khan">
+
+            <div class="candidate_card_details">
+                <strong>Nawaz Sharif</strong><br>
+                <span>Party Founder & Leader  </span><br>
+                <span>Pakistan Muslim League-N (PMLN)</span>
+            </div>
+
+            <a href="#success-card">
+             <button id="cast_vote" class="vote-btn">Cast Vote</button>
+            </a>
+          </div>
+    
      </div>
         
+     
+      <!-- Success Card - Hidden until link is clicked -->
+      <div id="success-card" class="success-card">
+         <h3>Vote Cast Successfully! </h3>
+         <p>Your vote has been recorded. Thank you!</p>
+         <a href="#" class="ok-btn">OK</a>
+      </div>
+
+     <!--Footer-->
+     <footer class="footer">
+        <div class="my_info">
+            <div class="github">
+                <i id="github_icon" class="fa-brands fa-github"></i>
+                <p>MAV onChain</p>
+            </div>
+
+            <div class="linkedin">
+                <i id="linkedin_icon" class="fa-brands fa-square-linkedin"></i>
+                <p>Muhammad Abdullah Arbab</p>
+            </div>
+        </div>
+
+
+        <div class="contacts">
+            <p>Contacts</p>
+            <div class="gmail">
+                <i id="gmail_icon" class="fa-solid fa-envelope"></i>
+                <p>mav.onchain@gmail.com</p>
+            </div>
+        </div>
+     </footer>
+
+    
        
     </main>
     
