@@ -1,0 +1,524 @@
+* {
+    background-color: #BAC1B8;
+}
+
+/*-----index.html page-----*/
+
+/*Styling Navigation bar*/
+.nav_bar {
+    padding-left: 20px; 
+    padding-right: 20px;
+    height: 3rem;
+    background-color: #242423;
+    color: #0C7C59;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/*Styling Navigation bar
+Paragraphs in Navbar*/
+.nav_bar p {
+    background-color: #242423;
+    padding:0.5px;
+    font-family: 'kadwa', sans-serif;
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/*Styling Navigation bar
+Bismillaj Text in Navbar*/
+.nav_bar #bismillah {
+    padding-left: 50px;
+    color: white;
+    text-align: center;
+}
+
+/*Styling Navigation bar
+Urdu and English language buttons div*/
+.language {
+     background-color: #242423;
+    display: flex;
+    justify-content: space-between;
+}
+
+/*Styling Navigation bar
+Urdu and English language buttons Paragraph*/
+.language p {
+    text-align: center;
+    margin-left: 40px;
+}
+
+/*Styling Slogan*/
+.slogan {
+    margin-top: 20px;
+    margin-bottom: 15px;
+    font-family: 'kanit', sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+    display: flex;
+    padding-top: 3;
+    justify-content: center;
+}
+
+/*Styling Div containing login options*/
+.login {
+    display:flex;
+    justify-content:space-around;
+    padding-left: 10rem;
+    padding-right: 10rem;
+}
+
+/*Styling Login div for citizens*/
+.citizen {
+    display: flex;
+    justify-content: center;
+    align-items: first baseline;
+    text-align: center;
+    background-color: #D9D9D9;
+    height: 220px;
+    width: 230px;
+    border-radius: 20px;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+/*Styling Login div for citizens
+Adding pop up effect*/
+.citizen:hover {
+    transform: scale(1.3);
+}
+
+/*Styling Login div for citizens
+icon of user*/
+.citizen_icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #56A953;
+    border-radius: 15px;
+    background-color: #13AD7D59;/* 59 = 35% in hex */
+    height: 50px;
+    width: 50px;
+    margin-bottom: 20px;
+    margin-top: -10px;
+}
+
+/*Styling Login div for citizens
+The name of card of login type i.e Citizen*/
+.citizen h4 {
+     background-color: #D9D9D9;
+     font-family: 'kanit', sans-serif;
+     font-weight: bold;
+     margin-top: -30px;
+    margin-bottom: 20px;
+    font-size: 32;
+}
+
+/*Styling Login div for citizens
+Paragraph in citizen Div*/
+.citizen p {
+    background-color: #D9D9D9;
+    font-family: 'Kantumruy Pro', sans-serif;
+    color: #000000AB; /* AB = 67% in hex */
+   margin-top: -10px;
+   font-size: 32;
+}
+
+/*Styling Login div for citizens
+Only accessing icon to make it, its shape along its borders not a square*/
+#user_icon {
+    background: transparent !important;
+}
+
+/*Styling Login div for citizens
+Button to continue as a citizen*/
+#button_citizen {
+    cursor: pointer;
+    background-color: #0C7C59;
+    font-family: 'kanit', sans-serif;
+    font-weight: bold;
+    color: #242423; 
+    border-radius: 4px;
+    border: black solid 0.2px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+
+
+
+/*Styling Login div for admin*/
+.admin {
+    display: flex;
+    justify-content: center;
+    align-items: first baseline;
+    text-align: center;
+    background-color: #D9D9D9;
+    height: 220px;
+    width: 230px;
+    border-radius: 20px;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+/*Styling Login div for admin
+Adding pop up effect*/
+.admin:hover {
+    transform: scale(1.3);
+}
+
+/*Styling Login div for admin
+icon of admin*/
+.admin_icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #705FA6;
+    border-radius: 15px;
+    background-color: #6564DB59;/* 59 = 35% in hex */
+    height: 50px;
+    width: 50px;
+    margin-bottom: 20px;
+    margin-top: -10px;
+}
+
+/*Styling Login div for admin
+The name of card of login type i.e Admin*/
+.admin h4 {
+     background-color: #D9D9D9;
+     font-family: 'kanit', sans-serif;
+     font-weight: bold;
+     margin-top: -30px;
+    margin-bottom: 20px;
+    font-size: 32;
+}
+
+/*Styling Login div for admin
+Paragraph in admin Div*/
+.admin p {
+    background-color: #D9D9D9;
+    font-family: 'Kantumruy Pro', sans-serif;
+    color: #000000AB; /* AB = 67% in hex */
+   margin-top: -10px;
+   font-size: 32;
+   margin-left: 10px;
+   margin-right: 10px;
+}
+
+/*Styling Login div for admin
+Only accessing icon to make it, its shape along its borders not a square*/
+#admin_icon {
+    background: transparent !important;
+}
+
+/*Styling Login div for admin
+Button to continue as a admin*/
+#button_admin {
+    cursor: pointer;
+    background-color: #0C7C59;
+    font-family: 'kanit', sans-serif;
+    font-weight: bold;
+    color: #242423; 
+    border-radius: 4px;
+    border: black solid 0.2px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    margin-top: 2px;
+}
+
+
+/*Styling Footer*/
+.footer {
+    background-color: #6564DB;
+    height: 15rem;
+    width: 95.53rem;
+    margin-top: 5rem;
+   margin-left: -1rem;
+}
+
+.my_info {
+ background-color: #6564DB;
+ 
+}
+
+
+.github {
+ background-color: #6564DB;
+ display: flex;
+ justify-content:flex-start;
+ padding-top: 1.5rem;
+ padding-left: 10rem;
+}
+
+
+#github_icon {
+ background-color: #6564DB;
+ font-size: 2rem;
+ padding-top: 1.3rem;   
+}
+
+.github p {
+ background-color: #6564DB;
+ font-size: 1.3rem;
+ font-family: 'kanit', sans-serif;
+ font-weight: bold;
+ color: #FFFFFF;
+ padding-left: 0.3rem;
+ 
+}
+
+.linkedin {
+ background-color: #6564DB;
+ display: flex;
+ justify-content: flex-start;
+ padding-left: 10rem;
+}
+
+#linkedin_icon {
+ background-color: #6564DB;
+ font-size: 2rem;
+}
+
+.linkedin p {
+ background-color: #6564DB;
+ color: #FFFFFF;
+ font-weight: bold;
+ font-family: 'kanit', sans-serif;
+ margin-top: -0.0rem;
+ font-size: 1.3rem;
+}
+
+.contacts {
+ background-color: #6564DB;
+ padding-left: 60rem;
+ margin-top: -9.5rem;
+}
+
+.contacts p {
+  background-color: #6564DB;
+  font-family: 'kanit', sans-serif;
+  font-weight: bold;
+  color: black;
+  font-size: 0.9rem;
+}
+
+.gmail {
+ background-color: #6564DB;
+ display: flex;
+}
+
+#gmail_icon {
+ background-color: #6564DB;
+ font-size: 2rem;
+ margin-left: -3rem;
+}
+
+.gmail p {
+ background-color: #6564DB;
+ color: #FFFFFF;
+ font-weight: bold;
+ font-family: 'kanit', sans-serif;
+ font-size: 1.3rem;
+ padding-left: 0.8rem;
+ margin-top: -0.1rem;
+}
+
+
+
+/*-----citizen.html page-----*/
+
+/*Styling Navigation bar*/
+.connect_wallet {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    background-color: #0C7C59;
+    font-family: 'kanit', sans-serif;
+    font-weight: bold;
+    color: #242423; 
+    border-radius: 0.6rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    margin:0.3rem;
+}
+
+#icon_wallet {
+     background-color: #0C7C59;
+}
+
+.connect_wallet span {
+     background-color: #0C7C59;
+
+}
+
+
+/*Styling Main*/
+.msg_connect_wallet {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    margin-left: 2rem;
+   
+}
+
+.msg_connect_wallet span {
+    color: #6564DB;
+    font-family: 'kadwa', sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+   
+}
+
+#metamask {
+    height: 30rem;        
+    object-fit: cover; 
+    border-radius: 3px; 
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    margin-right: -2rem;
+}
+
+
+
+/*Styling Footer*/
+.citizen_footer {
+    height: 15rem;
+    width: 95.53rem;
+    margin-left: -1rem;
+    background-color: #6564DB;
+}
+
+
+
+/*-----candidate.html page-----*/
+
+.msg_select {
+    display: flex;
+    justify-content: center;
+    color: #6564DB;
+    font-family: 'kadwa', sans-serif;
+    font-weight: bold;
+    margin-top: 1.5rem;
+    font-size: 3rem;
+}
+
+.candidates {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/*Candidate card styling*/
+
+.candidate_card {
+    padding: 0;
+    margin-top: 2rem;
+    display: flex;
+    background-color: #D9D9D9;
+    border-radius: 1rem;
+    padding: 1rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    width: 50rem;
+}
+
+.candidate_card img {
+    background-color: #D9D9D9;
+    height: 10rem;
+    width: 10rem;
+    object-position: center;
+    border-radius: 50%;
+    object-fit: cover;
+   
+}
+
+.candidate_card_details {
+    background-color: #D9D9D9;
+    padding-left: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    line-height: 1.6;
+}
+
+.candidate_card_details strong {
+    background-color: #D9D9D9;
+    font-family: 'kanit', sans-serif;
+    font-weight: bold;
+    font-size: 1.5rem;
+    
+}
+
+.candidate_card_details span {
+    background-color: #D9D9D9;
+    color: #000000AB;
+    font-family: 'kadwa', sans-serif;
+    font-size: 1rem;
+}
+
+.candidate_card a  {
+    background-color: #0C7C59;
+    cursor: pointer;
+    border-radius: 0.5rem;
+    width: 10rem;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 9rem;
+    margin-right: -2rem;
+    margin-left: 5.5rem;
+}
+
+.vote-btn {
+    cursor: pointer;
+    background-color: #0C7C59;
+    font-family: 'Kanit', sans-serif;
+    font-weight: bold;
+    color: #242423;
+    border: none;
+    font-size: 16px;
+    transition: background-color 0.3s; /* Optional smooth effect */
+}
+
+
+.success-card {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+    display: none; /* Hidden by default */
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    border: 2px solid #000000;
+    max-width: 300px;
+    margin: 20px auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Show the card when URL has #success-card */
+.success-card:target {
+    display: block;
+}
+
+#success-card p, h3,a {
+     background-color: white;
+}
